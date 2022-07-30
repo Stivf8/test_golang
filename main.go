@@ -32,5 +32,8 @@ func main() {
 	//Despega el Cohete
 	CoheteMark.DespegarCohete("Iniciado")
 	CoheteMark.EstadoMision("Despegando")
+	//devolvemos mision
+	msj := CoheteMark.GetMision()
+	println(msj)
 
 }

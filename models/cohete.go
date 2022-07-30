@@ -37,6 +37,12 @@ func (myCohete *Cohete) DespegarCohete(activarMotor string) {
 	myCohete.Motor = activarMotor
 }
 
+//funcion devuelve mision
+
+func (myCohete *Cohete) GetMision() string {
+	return myCohete.Mision
+}
+
 //Salida del struct
 func (myCohete Cohete) String() string {
 	//si los tripulantes estan completos envia mensaje de Ok!
